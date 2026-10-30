@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priya — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- ===== NAVIGATION ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Priya<span class="logo-dot">.</span></a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Mobile menu button -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO / HOME ===== -->
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-text">
+        <p class="hero-greeting animate-on-scroll">Hello, I'm</p>
+        <h1 class="hero-name animate-on-scroll">
+          <span class="text-reveal">Priya</span>
+        </h1>
+        <p class="hero-tagline animate-on-scroll">
+          Developer &amp; Creative Technologist
+        </p>
+        <p class="hero-description animate-on-scroll">
+          I craft clean, elegant digital experiences with a passion for
+          thoughtful design and robust code.
+        </p>
+        <div class="hero-buttons animate-on-scroll">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-visual animate-on-scroll">
+        <div class="hero-image-wrapper">
+          <!-- Profile image placeholder — replace src with your photo -->
+          <div class="profile-placeholder" aria-label="Profile photo placeholder">
+            <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="100" cy="78" r="40" fill="#e8c4c8"/>
+              <ellipse cx="100" cy="170" rx="60" ry="42" fill="#e8c4c8"/>
+            </svg>
+          </div>
+          <div class="hero-blob"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Decorative dots -->
+    <div class="hero-dots" aria-hidden="true"></div>
+    <!-- Floating sparkle accents -->
+    <div class="sparkle-accent sparkle-1" aria-hidden="true">✦</div>
+    <div class="sparkle-accent sparkle-2" aria-hidden="true">✧</div>
+    <div class="sparkle-accent sparkle-3" aria-hidden="true">✦</div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">About Me</h2>
+      <div class="about-grid">
+        <div class="about-image animate-on-scroll">
+          <div class="about-img-placeholder">
+            <span>✦</span>
+          </div>
+        </div>
+        <div class="about-content animate-on-scroll">
+          <p>
+            Hi there! I'm <strong>Priya</strong> — a curious developer who loves
+            building things that live on the internet. My journey in technology
+            started with a simple curiosity about how websites work and has since
+            evolved into a deep passion for creating meaningful digital
+            experiences.
+          </p>
+          <p>
+            I'm fascinated by the intersection of design and technology. Whether
+            it's building responsive web applications, exploring new frameworks,
+            or diving into data structures, I enjoy every part of the development
+            process. When I'm not coding, you'll find me exploring new tech,
+            reading, or sketching UI ideas.
+          </p>
+          <p>
+            I believe in writing clean, accessible code and designing interfaces
+            that are both beautiful and functional. I'm always learning, always
+            building, and always looking for the next challenge.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <span class="highlight-number">10+</span>
+              <span class="highlight-label">Projects Built</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-number">5+</span>
+              <span class="highlight-label">Technologies</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-number">∞</span>
+              <span class="highlight-label">Curiosity</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Skills</h2>
+
+      <!-- Frontend -->
+      <div class="skills-category animate-on-scroll">
+        <h3 class="skills-category-title">Frontend Development</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">&#9672;</div>
+            <span class="skill-name">HTML5</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">&#9672;</div>
+            <span class="skill-name">CSS3</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">&#9672;</div>
+            <span class="skill-name">JavaScript</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">&#9672;</div>
+            <span class="skill-name">React</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">&#9672;</div>
+            <span class="skill-name">Tailwind CSS</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Backend -->
+      <div class="skills-category animate-on-scroll">
+        <h3 class="skills-category-title">Backend &amp; Databases</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">&#9670;</div>
+            <span class="skill-name">Python</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">&#9670;</div>
+            <span class="skill-name">Node.js</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">&#9670;</div>
+            <span class="skill-name">SQL</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">&#9670;</div>
+            <span class="skill-name">MongoDB</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div class="skills-category animate-on-scroll">
+        <h3 class="skills-category-title">Tools &amp; Platforms</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">&#9674;</div>
+            <span class="skill-name">Git &amp; GitHub</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">&#9674;</div>
+            <span class="skill-name">VS Code</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">&#9674;</div>
+            <span class="skill-name">Figma</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">&#9674;</div>
+            <span class="skill-name">Linux</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Projects</h2>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card animate-on-scroll">
+          <div class="project-image">
+            <span class="project-emoji">🌐</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Personal Portfolio</h3>
+            <p class="project-description">
+              A responsive and elegant personal portfolio website showcasing my
+              skills, projects, and journey — the very site you're viewing now.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-small btn-primary" aria-label="Live demo of Personal Portfolio">Live Demo</a>
+              <a href="#" class="btn btn-small btn-outline" aria-label="GitHub repository of Personal Portfolio">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card animate-on-scroll">
+          <div class="project-image">
+            <span class="project-emoji">📝</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Task Manager App</h3>
+            <p class="project-description">
+              A clean to-do application with CRUD functionality, local storage
+              persistence, and a beautiful minimal UI.
+            </p>
+            <div class="project-tags">
+              <span class="tag">React</span>
+              <span class="tag">CSS</span>
+              <span class="tag">LocalStorage</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-small btn-primary" aria-label="Live demo of Task Manager App">Live Demo</a>
+              <a href="#" class="btn btn-small btn-outline" aria-label="GitHub repository of Task Manager App">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card animate-on-scroll">
+          <div class="project-image">
+            <span class="project-emoji">🌤️</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Weather Dashboard</h3>
+            <p class="project-description">
+              A weather app that fetches real-time data from an API and displays
+              forecasts with smooth animations and a clean layout.
+            </p>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">API</span>
+              <span class="tag">CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-small btn-primary" aria-label="Live demo of Weather Dashboard">Live Demo</a>
+              <a href="#" class="btn btn-small btn-outline" aria-label="GitHub repository of Weather Dashboard">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card animate-on-scroll">
+          <div class="project-image">
+            <span class="project-emoji">💬</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Chat Application</h3>
+            <p class="project-description">
+              A real-time chat app built with WebSockets featuring rooms,
+              typing indicators, and a polished conversational interface.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">Socket.io</span>
+              <span class="tag">Express</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-small btn-primary" aria-label="Live demo of Chat Application">Live Demo</a>
+              <a href="#" class="btn btn-small btn-outline" aria-label="GitHub repository of Chat Application">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Education</h2>
+      <div class="timeline">
+
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2022 — Present</span>
+            <h3 class="timeline-title">Bachelor of Technology</h3>
+            <p class="timeline-subtitle">Computer Science &amp; Engineering</p>
+            <p class="timeline-detail">
+              Pursuing a B.Tech with a focus on software development, data
+              structures, algorithms, and web technologies. Actively
+              participating in coding clubs and hackathons.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2020 — 2022</span>
+            <h3 class="timeline-title">Higher Secondary Education</h3>
+            <p class="timeline-subtitle">Science Stream — PCM with CS</p>
+            <p class="timeline-detail">
+              Completed 12th grade with a strong foundation in mathematics,
+              physics, and computer science. Developed an early interest in
+              programming and problem-solving.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2020</span>
+            <h3 class="timeline-title">Secondary Education</h3>
+            <p class="timeline-subtitle">CBSE Board</p>
+            <p class="timeline-detail">
+              Completed 10th grade with distinction. First introduction to
+              programming through school coursework, sparking a lifelong
+              passion for technology.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="container contact-container">
+      <h2 class="section-title animate-on-scroll">Get in Touch</h2>
+      <p class="contact-subtitle animate-on-scroll">
+        I'm always open to new opportunities, collaborations, or just a
+        friendly chat. Feel free to reach out!
+      </p>
+
+      <div class="contact-grid animate-on-scroll">
+        <a href="mailto:priya@example.com" class="contact-card" aria-label="Send email">
+          <div class="contact-icon">✉</div>
+          <h3>Email</h3>
+          <p>priya@example.com</p>
+        </a>
+
+        <a href="https://github.com/priya" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="Visit GitHub profile">
+          <div class="contact-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.11.82-.26.82-.58v-2.16c-3.34.73-4.04-1.61-4.04-1.61a3.18 3.18 0 0 0-1.33-1.76c-1.09-.74.08-.73.08-.73a2.52 2.52 0 0 1 1.84 1.24 2.56 2.56 0 0 0 3.5 1 2.56 2.56 0 0 1 .76-1.6c-2.67-.3-5.47-1.33-5.47-5.93a4.64 4.64 0 0 1 1.24-3.22 4.3 4.3 0 0 1 .12-3.18s1-.32 3.3 1.23a11.38 11.38 0 0 1 6 0c2.28-1.55 3.28-1.23 3.28-1.23a4.3 4.3 0 0 1 .12 3.18 4.64 4.64 0 0 1 1.24 3.22c0 4.61-2.8 5.63-5.48 5.92a2.86 2.86 0 0 1 .82 2.22v3.29c0 .32.21.7.82.58A12 12 0 0 0 12 .3"/>
+            </svg>
+          </div>
+          <h3>GitHub</h3>
+          <p>github.com/priya</p>
+        </a>
+
+        <a href="https://linkedin.com/in/priya" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="Visit LinkedIn profile">
+          <div class="contact-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05a3.74 3.74 0 0 1 3.37-1.85c3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77A1.75 1.75 0 0 0 0 1.73v20.54A1.75 1.75 0 0 0 1.77 24h20.45A1.76 1.76 0 0 0 24 22.27V1.73A1.76 1.76 0 0 0 22.22 0z"/>
+            </svg>
+          </div>
+          <h3>LinkedIn</h3>
+          <p>linkedin.com/in/priya</p>
+        </a>
+      </div>
+
+      <div class="contact-cta animate-on-scroll">
+        <a href="mailto:priya@example.com" class="btn btn-primary btn-large">
+          Say Hello ✦
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>Designed &amp; Built by <strong>Priya</strong> with ♥</p>
+      <p class="footer-sub">© 2026 — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button class="back-to-top" id="backToTop" aria-label="Scroll back to top">↑</button>
+
+  <!-- Sparkle canvas — sits behind content -->
+  <canvas id="sparkleCanvas" aria-hidden="true"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
